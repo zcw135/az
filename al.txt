@@ -5,39 +5,30 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","cipher":"aes-256-cfb","password":"fG2artUmHfNT2cX7","server":"103.172.116.9","port":9018,"name":"🏁ZZ_3124+|+8.89Mb"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"Sn5B7jTqr76aCJT8","server":"103.172.116.9","port":9097,"name":"🏁ZZ_3133+|+2.39Mb"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"bf7v334KKDV3YDhH","server":"213.183.59.229","port":9070,"name":"🇳🇱+NL_906"}
-  - {"type":"ss","cipher":"aes-128-cfb","password":"QazEdcTgb159@$*","server":"180.163.62.91","port":10064,"name":"🇨🇳CN_364+|+4.28Mb"}
-  - {"type":"ss","cipher":"aes-256-cfb","password":"FAdUvMJUq5vDgKEq","server":"103.172.116.9","port":9006,"name":"🏁+ZZ_2449"}
-  - {"type":"trojan","name":"v2cross.com_1","server":"ty2-8.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com_2","server":"v2cross.com.01.v2ce.com","password":"mMQ6qJB9xbhiRvgg","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com_3","server":"sg-sr-116.mitoption.com","password":"e5d46365e25e31d94279c2bcf93390a2","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com_4","server":"ty2-1.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"101.230.149.29"}},"server":"101.230.149.29","name":"v2cross.com_5","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/5Ci3h6YB/"},"server":"45.76.173.250","name":"v2cross.com_6","port":"65340","uuid":"b620d78a-d3a7-496f-af32-565185473eb8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"v2cross.com_7","server":"jgwdb1.gaox.ml","password":"a580d839-ee41-4df1-bf03-6789dca32e30","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com_8","server":"jgwcc1.gaox.ml","password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm08.bdate.xyz","name":"v2cross.com_9","port":"1280","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/mg","headers":{"host":"/t.me/mengge88888888"}},"server":"kr-direct-cdn.node001.xyz","name":"v2cross.com_10","port":"2086","uuid":"a1f3e867-8f8d-3763-bb80-21da561e6714","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"v2cross.com_11","server":"an011.oioav.com","password":"55af954a-7634-4f28-8acf-8a64ca9fc4cd","port":"52306","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"ahdaeph8.com","name":"v2cross.com_12","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","name":"v2cross.com_13","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"v2cross.com_14","server":"jgwhdlb1.gaox.ml","password":"e05c749b-7c6b-41b8-9c71-9dcf685edf4a","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com_15","server":"jgwxn2.gaox.ml","password":"c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","port":"443","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm08.bdate.xyz","name":"v2cross.com_16","port":"2570","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","ws-opts":{"path":"/index","headers":{"host":"jpaz2.xmrth-node.xyz"}},"server":"jpaz2.xmrth-node.xyz","name":"v2cross.com_17","port":"10141","uuid":"a88b5172-6a32-3562-8e6e-911b2c0352e1","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"v2cross.com_1","server":"free.spcloud.us","password":"118fc04e-fb8c-4154-9092-352cf1958fcd","port":20010,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com_2","server":"bai-piao-wang-zhe-iplc2.98848.xyz","password":"b23ecb07-1cd3-4490-b4eb-4d32cd0b9249","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com_3","server":"hkbn.okvpn.xyz","password":"04cb4602-7b83-42a9-abf9-a364caed013b","port":12000,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm08.bdate.xyz","name":"v2cross.com_4","port":"2570","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","name":"v2cross.com_5","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"v2cross.com_6","server":"ty2-8.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","name":"v2cross.com_7","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","name":"v2cross.com_8","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","name":"v2cross.com_9","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"v2cross.com_10","server":"an011.oioav.com","password":"55af954a-7634-4f28-8acf-8a64ca9fc4cd","port":52306,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com_11","server":"v2cross.com.01.v2ce.com","password":"mMQ6qJB9xbhiRvgg","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"us2407.cloudmatrix.xyz"}},"server":"us2407.cloudmatrix.xyz","name":"v2cross.com_12","port":"2407","uuid":"479a9dbc-b896-3fc7-8f68-c26c92f3ae2a","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v4.ssrsub.com"}},"server":"v4.ssrsub.com","name":"v2cross.com_13","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/wis","headers":{"host":"aa.houdinix.space"}},"server":"aa.houdinix.space","name":"v2cross.com_14","port":"26267","uuid":"9757cdba-c75b-4b94-9e31-7956dc7d852a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"v2cross.com_15","server":"jgwdj4.gaox.ml","password":"c09eb137-bf68-4658-84e0-102d94b74168","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com_16","server":"ty2-3.nigirocloud.com","password":"ruWkGdbUKT4RN7kZ8t","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","name":"v2cross.com_17","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"ahdaeph8.com","name":"v2cross.com_18","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🏁ZZ_3124+|+8.89Mb
-      - 🏁ZZ_3133+|+2.39Mb
-      - 🇳🇱+NL_906
-      - 🇨🇳CN_364+|+4.28Mb
-      - 🏁+ZZ_2449
       - v2cross.com_1
       - v2cross.com_2
       - v2cross.com_3
@@ -55,17 +46,13 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
+      - v2cross.com_18
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🏁ZZ_3124+|+8.89Mb
-      - 🏁ZZ_3133+|+2.39Mb
-      - 🇳🇱+NL_906
-      - 🇨🇳CN_364+|+4.28Mb
-      - 🏁+ZZ_2449
       - v2cross.com_1
       - v2cross.com_2
       - v2cross.com_3
@@ -83,17 +70,13 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
+      - v2cross.com_18
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🏁ZZ_3124+|+8.89Mb
-      - 🏁ZZ_3133+|+2.39Mb
-      - 🇳🇱+NL_906
-      - 🇨🇳CN_364+|+4.28Mb
-      - 🏁+ZZ_2449
       - v2cross.com_1
       - v2cross.com_2
       - v2cross.com_3
@@ -111,16 +94,12 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
+      - v2cross.com_18
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏁ZZ_3124+|+8.89Mb
-      - 🏁ZZ_3133+|+2.39Mb
-      - 🇳🇱+NL_906
-      - 🇨🇳CN_364+|+4.28Mb
-      - 🏁+ZZ_2449
       - v2cross.com_1
       - v2cross.com_2
       - v2cross.com_3
@@ -138,16 +117,12 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
+      - v2cross.com_18
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🏁ZZ_3124+|+8.89Mb
-      - 🏁ZZ_3133+|+2.39Mb
-      - 🇳🇱+NL_906
-      - 🇨🇳CN_364+|+4.28Mb
-      - 🏁+ZZ_2449
       - v2cross.com_1
       - v2cross.com_2
       - v2cross.com_3
@@ -165,16 +140,12 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
+      - v2cross.com_18
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏁ZZ_3124+|+8.89Mb
-      - 🏁ZZ_3133+|+2.39Mb
-      - 🇳🇱+NL_906
-      - 🇨🇳CN_364+|+4.28Mb
-      - 🏁+ZZ_2449
       - v2cross.com_1
       - v2cross.com_2
       - v2cross.com_3
@@ -192,6 +163,7 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
+      - v2cross.com_18
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -214,11 +186,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🏁ZZ_3124+|+8.89Mb
-      - 🏁ZZ_3133+|+2.39Mb
-      - 🇳🇱+NL_906
-      - 🇨🇳CN_364+|+4.28Mb
-      - 🏁+ZZ_2449
       - v2cross.com_1
       - v2cross.com_2
       - v2cross.com_3
@@ -236,6 +203,7 @@ proxy-groups:
       - v2cross.com_15
       - v2cross.com_16
       - v2cross.com_17
+      - v2cross.com_18
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
