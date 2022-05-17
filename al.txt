@@ -5,67 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"198.57.27.218","port":5004,"name":"v2rayse_test_1"}
-  - {"type":"vmess","server":"154.23.190.162","name":"v2rayse_test_2","port":443,"uuid":"b9984674-f771-4e67-a198-c7e60720ba2c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ssr","server":"20.239.49.44","port":59814,"protocol":"origin","cipher":"dummy","obfs":"plain","password":"3df57276-03ef-45cf-bdd4-4edb6dfaa0ef","name":"v2rayse_test_3"}
-  - {"type":"trojan","name":"v2rayse_test_4","server":"ca-trojan.bonds.id","password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","name":"Relay_🇨🇳CN-🏁ZZ_348","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_3176","server":"sg-sr-116.mitoption.com","password":"e5d46365e25e31d94279c2bcf93390a2","port":443,"udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm01.bdate.xyz"}},"server":"zzcm01.bdate.xyz","name":"Relay_🇨🇳CN-🇺🇸US_437","port":"1360","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","name":"Relay_🇺🇸US-🇷🇺RU_43","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm07.bdate.xyz"}},"server":"zzcm07.bdate.xyz","name":"Relay_🇨🇳CN-🇹🇼TW_468","port":"1510","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm09.bdate.xyz"}},"server":"zzcm09.bdate.xyz","name":"Relay_🇨🇳CN-🇺🇸US_417","port":"1420","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"v2cross.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"zzcm08.bdate.xyz","name":"Relay_🇨🇳CN-🇭🇰HK_429","port":"2570","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","server":"bgpv2.ktyjsq.com","name":"Relay_🇨🇳CN-🇷🇺RU_14","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","ws-opts":{"path":"/vpnsieure","headers":{"host":"livestream2.tv360.vn"}},"server":"vn04v2.vpnsieure.com","name":"Relay_🏁ZZ-🏁ZZ_4533","port":"80","uuid":"330efbdb-7171-4fd1-a524-d7b7d8e76732","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - Relay_🇨🇳CN-🏁ZZ_348
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - Relay_🇨🇳CN-🇺🇸US_437
+      - Relay_🇺🇸US-🇷🇺RU_43
+      - Relay_🇨🇳CN-🇹🇼TW_468
+      - Relay_🇨🇳CN-🇺🇸US_417
+      - v2cross.com
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇷🇺RU_14
+      - Relay_🏁ZZ-🏁ZZ_4533
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - Relay_🇨🇳CN-🏁ZZ_348
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - Relay_🇨🇳CN-🇺🇸US_437
+      - Relay_🇺🇸US-🇷🇺RU_43
+      - Relay_🇨🇳CN-🇹🇼TW_468
+      - Relay_🇨🇳CN-🇺🇸US_417
+      - v2cross.com
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇷🇺RU_14
+      - Relay_🏁ZZ-🏁ZZ_4533
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - Relay_🇨🇳CN-🏁ZZ_348
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - Relay_🇨🇳CN-🇺🇸US_437
+      - Relay_🇺🇸US-🇷🇺RU_43
+      - Relay_🇨🇳CN-🇹🇼TW_468
+      - Relay_🇨🇳CN-🇺🇸US_417
+      - v2cross.com
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇷🇺RU_14
+      - Relay_🏁ZZ-🏁ZZ_4533
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - Relay_🇨🇳CN-🏁ZZ_348
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - Relay_🇨🇳CN-🇺🇸US_437
+      - Relay_🇺🇸US-🇷🇺RU_43
+      - Relay_🇨🇳CN-🇹🇼TW_468
+      - Relay_🇨🇳CN-🇺🇸US_417
+      - v2cross.com
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇷🇺RU_14
+      - Relay_🏁ZZ-🏁ZZ_4533
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - Relay_🇨🇳CN-🏁ZZ_348
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - Relay_🇨🇳CN-🇺🇸US_437
+      - Relay_🇺🇸US-🇷🇺RU_43
+      - Relay_🇨🇳CN-🇹🇼TW_468
+      - Relay_🇨🇳CN-🇺🇸US_417
+      - v2cross.com
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇷🇺RU_14
+      - Relay_🏁ZZ-🏁ZZ_4533
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - Relay_🇨🇳CN-🏁ZZ_348
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - Relay_🇨🇳CN-🇺🇸US_437
+      - Relay_🇺🇸US-🇷🇺RU_43
+      - Relay_🇨🇳CN-🇹🇼TW_468
+      - Relay_🇨🇳CN-🇺🇸US_417
+      - v2cross.com
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇷🇺RU_14
+      - Relay_🏁ZZ-🏁ZZ_4533
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,10 +130,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v2rayse_test_1
-      - v2rayse_test_2
-      - v2rayse_test_3
-      - v2rayse_test_4
+      - Relay_🇨🇳CN-🏁ZZ_348
+      - Relay_🇺🇸US-🇺🇸US_3176
+      - Relay_🇨🇳CN-🇺🇸US_437
+      - Relay_🇺🇸US-🇷🇺RU_43
+      - Relay_🇨🇳CN-🇹🇼TW_468
+      - Relay_🇨🇳CN-🇺🇸US_417
+      - v2cross.com
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇷🇺RU_14
+      - Relay_🏁ZZ-🏁ZZ_4533
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
