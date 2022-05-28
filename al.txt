@@ -5,445 +5,1068 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"github.com/freefq-美国Microsoft公司26","server":"zhizun22.jafiyun.club","port":"21186","uuid":"4c348c16-6c18-3ee6-81d3-052c7f4d4b65","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇨🇦CA_10","server":"zhizun22.jafiyun.club","port":"21186","uuid":"4c348c16-6c18-3ee6-81d3-052c7f4d4b65","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"github.com/freefq+-+美国++17","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2836","server":"kr05.wangxd.life","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇷🇺RU_21","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇷🇺RU_1457","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇨🇳CN_85|1.64Mb","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点20","ws-opts":{"path":"/api/v3/download.getFile"},"server":"v1.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"github.com/freefq+-+美国++15","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"github.com/v2rayfree-美国CloudFlare公司CDN节点20","ws-opts":{"path":"/api/v3/download.getFile"},"server":"v1.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"github.com/v2rayfree+-+美国++15","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇩🇪DE_08","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Relay_🇫🇷FR-🇺🇸US_376","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"ahdaeph8.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"github.com/freefq+-+新加坡Linode数据中心+21","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇷🇺RU_11","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇨🇦CA_11","server":"120.232.239.6","port":"31220","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"🇸🇬+SG_146+|43.17Mb","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸US_1919+|+2.02Mb","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇩🇪DE_23","ws-opts":{"path":"/xxX8","headers":{"host":"sg.wweblog.pw"}},"server":"172.64.147.71","port":"443","uuid":"80e098a1-f768-3dfb-b97f-6c3a5d34bcd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点28","ws-opts":{"path":"/xxX8","headers":{"host":"sg.wweblog.pw"}},"server":"172.64.147.71","port":"443","uuid":"80e098a1-f768-3dfb-b97f-6c3a5d34bcd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇷🇺RU_07","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2840","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇷🇺RU_1458","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v5.ssrsub.com"}},"server":"v5.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US_792","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-广东省广州市移动25","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇸🇬+SG_113+TG@peekfun","server":"157.230.41.220","port":29596,"cipher":"aes-256-cfb","password":"e6c1cf51375c407d92d110881a825acb"}
-  - {"type":"ss","name":"🏁+ZZ_95","server":"103.172.116.9","port":9079,"cipher":"aes-256-cfb","password":"TPqX8edgbAURcAMb"}
-  - {"type":"ss","name":"github.com/freefq+-+俄罗斯++11","server":"185.4.65.6","port":21247,"cipher":"aes-256-cfb","password":"vDS9G2p"}
-  - {"type":"ss","name":"🇷🇴+RO_162+|+2.02Mb","server":"185.126.116.125","port":9088,"cipher":"aes-256-cfb","password":"f8npKgNzdkss2ytn"}
-  - {"type":"ss","name":"🇱🇹+LT_148+|+2.51Mb","server":"213.183.53.177","port":9000,"cipher":"aes-256-cfb","password":"a3GFYt36Sm82Vys9"}
-  - {"type":"trojan","name":"github.com/freefq+-+英国++25","server":"de-03.fireplay.io","port":443,"password":"63X7Dg58EII2qt6f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇬🇧+GB_115+|+1.33Mb","server":"jgwld3.gaox.ml","port":443,"password":"71b55a84-3fac-4458-abff-eaad79219c91","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇨🇳+CN_36+|+2.55Mb","server":"14.29.124.168","port":24088,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"trojan","name":"🇺🇸+US_206+|+2.03Mb","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇯🇵+JP_133+|17.14Mb","server":"jgwdb4.gaox.ml","port":443,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"github.com/v2rayfree+-+美国俄勒冈州波特兰Amazon数据中心+37","server":"54.214.170.7","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"type":"trojan","name":"github.com/freefq+-+新加坡Linode数据中心+32","server":"sg3.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"github.com/freefq-美国Microsoft公司35","server":"zhizun22.jafiyun.club","port":"21186","uuid":"4c348c16-6c18-3ee6-81d3-052c7f4d4b65","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"Relay_🇸🇬+SG-🇸🇬SG_1670","server":"sg3.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇸🇬+SG_1131+|+6.56Mb","server":"sg3.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸US_132TG@peekfun","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_3115","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇨🇦CA_13","server":"120.232.239.6","port":"31220","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"github.com/freefq+-+美国++7","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq+-+美国++29","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇨🇦CA_12","server":"120.232.239.6","port":"31220","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2842","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点29","ws-opts":{"path":"/","headers":{"host":"awsxjp.moonfree.top"}},"server":"awsxjp.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"ahdaeph8.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare公司CDN节点20","ws-opts":{"path":"/api/v3/download.getFile"},"server":"v1.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/v2rayfree+-+美国++15","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇷🇺RU_05","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-广东省广州市移动35","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇩🇪DE_17","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-广东省广州市移动52","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Relay_🇺🇸US-🇷🇺RU_57","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v3.ssrsub.com"}},"server":"v3.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡Linode数据中心21","ws-opts":{"path":"/howdy"},"server":"v2ray3.bonds.id","port":"443","uuid":"014291fb-3808-4ae8-9303-e1f40d58bb4f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳CN_85|1.64Mb","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"🇺🇸US_1953+|+2.34Mb","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"github.com/v2rayfree-美国Microsoft公司26","server":"zhizun22.jafiyun.club","port":"21186","uuid":"4c348c16-6c18-3ee6-81d3-052c7f4d4b65","alterId":"2","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"github.com/freefq+-+美国++33","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2826","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/v2rayfree+-+美国++17","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇸🇬SG_1179","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇸🇬+SG_96+|43.17Mb","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"github.com/v2rayfree-广东省广州市移动25","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US_1904|1.99Mb","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v4.ssrsub.com"}},"server":"v4.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"Relay_🇸🇬SG-🇺🇸US_1710","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/freefq+-+新加坡Linode数据中心+36","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/v2rayfree+-+新加坡Linode数据中心+21","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"github.com/v2rayfree-美国CloudFlare公司CDN节点18","ws-opts":{"path":"/","headers":{"host":"awsxjp.moonfree.top"}},"server":"awsxjp.moonfree.top","port":"443","uuid":"6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US_787","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/v2rayfree-美国CloudFlare节点28","ws-opts":{"path":"/xxX8","headers":{"host":"sg.wweblog.pw"}},"server":"172.64.147.71","port":"443","uuid":"80e098a1-f768-3dfb-b97f-6c3a5d34bcd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇯🇵JP_694","server":"jgwcc3.gaox.ml","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2821","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2830","server":"jgwcc3.gaox.ml","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点60","ws-opts":{"path":"/xxX4","headers":{"host":"sg.wweblog.pw"}},"server":"172.64.93.136","port":"443","uuid":"80e098a1-f768-3dfb-b97f-6c3a5d34bcd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"🇺🇸US_1924+|+2.02Mb","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/v2rayfree-广东省广州市移动25","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"github.com/v2rayfree+-+美国++17","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq+-+美国++33","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/v2rayfree+-+新加坡Linode数据中心+21","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2821","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Relay_🇺🇸US-🇷🇺RU_1461","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"v1.ssrsub.com"}},"server":"v1.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇫🇷FR_609|2.03Mb","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"ahdaeph8.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇷🇺RU_13","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸+US_160+|+9.09Mb","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2992","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_3076","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇩🇪DE_15","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-广东省广州市移动41","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"Relay_🇦🇺AU-🇦🇺AU_88","server":"jgwxn3.gaox.ml","port":443,"password":"cb43b7c2-b744-41c5-bcc2-fd7467b332cf","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇸🇬+SG-🇸🇬SG_1670","server":"sg3.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq+-+新加坡Linode数据中心+36","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/v2rayfree-广东省广州市移动34","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_3083","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸US_787","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}},"server":"104.166.135.10","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇸🇬+SG_96+|43.17Mb","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-美国俄勒冈州波特兰Amazon数据中心27","ws-opts":{"path":"/"},"server":"34.215.130.186","port":"10089","uuid":"3608c9dc-1eeb-48b0-b570-43074b4a0c9e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/v2rayfree-美国CloudFlare公司CDN节点20","ws-opts":{"path":"/api/v3/download.getFile"},"server":"v1.ssrsub.com","port":"443","uuid":"620d82a8-22ba-4945-90ba-a2bed1cde1d2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/v2rayfree-美国CloudFlare节点28","ws-opts":{"path":"/xxX8","headers":{"host":"sg.wweblog.pw"}},"server":"172.64.147.71","port":"443","uuid":"80e098a1-f768-3dfb-b97f-6c3a5d34bcd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"🇦🇺+AU_02+|+2.57Mb","server":"kr04.wangxd.life","port":3052,"password":"3a2c0c6c-9ee5-c05f-c951-fcd73831983e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇸🇬SG-🇺🇸US_1710","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸+US_167+|+2.03Mb","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳CN_50|1.64Mb","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"9ea70d57-9cb6-3bd0-ae41-5601e516dcc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-美国Microsoft公司35","server":"zhizun22.jafiyun.club","port":"21186","uuid":"4c348c16-6c18-3ee6-81d3-052c7f4d4b65","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸US_2042+|+2.27Mb","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸US_2402+|+2.50Mb","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_3013","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/v2rayfree-美国Microsoft公司26","server":"zhizun22.jafiyun.club","port":"21186","uuid":"4c348c16-6c18-3ee6-81d3-052c7f4d4b65","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸+US_132+|24.32Mb","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2826","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq+-+美国++13","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/v2rayfree+-+美国++7","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2828","server":"jgwhdlb3.gaox.ml","port":443,"password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇸🇬+SG_1131+|+6.56Mb","server":"sg3.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇨🇦CA_09","server":"120.232.239.6","port":"31220","uuid":"b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇸🇬SG_1179","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸+US_206+|+2.03Mb","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_3003","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇸🇬SG_1209+|+2.41Mb","server":"sg3.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇸🇬SG_1210+|+2.16Mb","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云42","server":"129.226.215.218","port":"39758","uuid":"e1afb696-1e40-4a45-e6de-792c1bd94038","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云56","server":"129.226.217.153","port":"15184","uuid":"bb02fa5b-1d15-46f4-fa47-053c6db61e39","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云5","server":"129.226.95.251","port":"27354","uuid":"dfd10b52-d4fd-4711-9df2-7ec4204024a3","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云46","server":"129.226.95.71","port":"56916","uuid":"29d4cfd8-9aea-4796-9320-b2b9234fc141","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-湖南省联通50","ws-opts":{"path":"/videos","headers":{"host":"t.me/vpnhat"}},"server":"116.162.43.38","port":"30075","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云1","server":"129.226.213.241","port":"24824","uuid":"8c1e17cf-c378-403f-862c-62897510116c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云25","server":"129.226.216.160","port":"49056","uuid":"89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"github.com/v2rayfree+-+美国++51","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云56","server":"129.226.217.153","port":"15184","uuid":"bb02fa5b-1d15-46f4-fa47-053c6db61e39","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡Linode数据中心69","ws-opts":{"path":"/howdy"},"server":"v2ray3.bonds.id","port":"443","uuid":"014291fb-3808-4ae8-9303-e1f40d58bb4f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云47","server":"129.226.215.149","port":"12709","uuid":"7875765c-3c12-402e-a76a-ff9e2bca8404","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云42","server":"129.226.215.218","port":"39758","uuid":"e1afb696-1e40-4a45-e6de-792c1bd94038","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"github.com/freefq+-+美国++51","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云14","server":"129.226.214.114","port":"28902","uuid":"c8377db4-6a17-4575-c04a-a91cb037dc6d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"Relay_🇸🇬SG-🇸🇬SG_1781","server":"sg3.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云27","server":"129.226.95.252","port":"14631","uuid":"85fcb40a-826f-4b19-ffd1-f6dcb32711ed","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云63","server":"129.226.215.114","port":"39927","uuid":"0783b758-2388-4389-f9c0-d84fceab1ad6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云13","server":"129.226.95.188","port":"20792","uuid":"b7335dae-b946-46ae-f341-acbf8df21c86","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云44","server":"129.226.217.71","port":"24000","uuid":"8155e01b-1b54-410d-9550-555390a90d9d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云16","server":"129.226.214.134","port":"48057","uuid":"3b550135-036a-4d12-8553-535953d167aa","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云30","server":"129.226.214.101","port":"51332","uuid":"6951282c-94d5-4f5d-cbc5-1e97f90bfe39","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云21","server":"129.226.95.12","port":"14597","uuid":"4d346473-716f-404a-819c-e56fc07b0234","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云24","server":"129.226.215.176","port":"46601","uuid":"57becf81-97bd-46fe-8022-a4bfbca4df8e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云46","server":"129.226.95.71","port":"56916","uuid":"29d4cfd8-9aea-4796-9320-b2b9234fc141","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-湖南省联通50","ws-opts":{"path":"/videos","headers":{"host":"t.me/vpnhat"}},"server":"116.162.43.38","port":"30075","uuid":"cf8acaed-8ea7-3caf-b457-3ba13b64d8dd","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云48","server":"129.226.215.7","port":"28833","uuid":"e20eea47-f0f1-49b8-da1b-969693463008","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2937","server":"charge.starspace.link","port":443,"password":"8UnS7eSMi8OFKfje","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云65","server":"129.226.95.143","port":"45381","uuid":"cd2a260c-f244-4e12-83c3-8a259cf29fc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云12","server":"129.226.93.161","port":"40236","uuid":"931416fe-98f2-4098-c8e7-3634e27ce6f4","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云10","server":"129.226.215.182","port":"14231","uuid":"5d10b5de-9eaf-45b1-c35e-ad4b1ade9820","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"github.com/v2rayfree+-+新加坡Linode数据中心+72","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云63","server":"129.226.215.114","port":"39927","uuid":"0783b758-2388-4389-f9c0-d84fceab1ad6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"Relay_🇺🇸US-🇺🇸US_2930","server":"sg1.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/freefq+-+新加坡Linode数据中心+72","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云22","server":"129.226.214.28","port":"15430","uuid":"6e9a4ae9-e60b-4cea-af9f-9de18d37404e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云27","server":"129.226.95.252","port":"14631","uuid":"85fcb40a-826f-4b19-ffd1-f6dcb32711ed","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云19","server":"129.226.217.8","port":"40699","uuid":"86a40159-0f77-4105-f5b2-169696ccf501","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云28","server":"129.226.93.198","port":"57696","uuid":"1ec2c6a9-f727-412d-a433-fbb87c3aca50","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云30","server":"129.226.214.101","port":"51332","uuid":"6951282c-94d5-4f5d-cbc5-1e97f90bfe39","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-美国Microsoft公司77","server":"zhizun22.jafiyun.club","port":"21186","uuid":"4c348c16-6c18-3ee6-81d3-052c7f4d4b65","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云11","server":"129.226.213.191","port":"39389","uuid":"5ed960c2-1752-48de-b41b-fc8dc70bc3be","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云28","server":"129.226.93.198","port":"57696","uuid":"1ec2c6a9-f727-412d-a433-fbb87c3aca50","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云54","server":"129.226.217.139","port":"35846","uuid":"5d468799-dff3-4ecd-8323-c3ee23094069","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云25","server":"129.226.216.160","port":"49056","uuid":"89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云14","server":"129.226.214.114","port":"28902","uuid":"c8377db4-6a17-4575-c04a-a91cb037dc6d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云19","server":"129.226.217.8","port":"40699","uuid":"86a40159-0f77-4105-f5b2-169696ccf501","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云9","server":"129.226.215.77","port":"38328","uuid":"21f46ce9-ced4-4573-872d-190587bbb101","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云49","server":"129.226.94.152","port":"56382","uuid":"b14dc53a-1505-4909-8f23-2f9391e30d56","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云49","server":"129.226.94.152","port":"56382","uuid":"b14dc53a-1505-4909-8f23-2f9391e30d56","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云9","server":"129.226.215.77","port":"38328","uuid":"21f46ce9-ced4-4573-872d-190587bbb101","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云16","server":"129.226.214.134","port":"48057","uuid":"3b550135-036a-4d12-8553-535953d167aa","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云18","server":"129.226.215.139","port":"51936","uuid":"8720623e-1c52-4205-f5da-5762b5010ea0","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云13","server":"129.226.95.188","port":"20792","uuid":"b7335dae-b946-46ae-f341-acbf8df21c86","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-美国CloudFlare节点78","ws-opts":{"path":"/xxX4","headers":{"host":"sg.wweblog.pw"}},"server":"172.64.93.136","port":"443","uuid":"80e098a1-f768-3dfb-b97f-6c3a5d34bcd8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云15","server":"129.226.216.176","port":"46865","uuid":"dbc10445-901c-44e1-be29-1f011c53ab1d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云68","server":"129.226.214.106","port":"56552","uuid":"107fd66d-0f00-4ec6-8c70-75f1ed180173","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云47","server":"129.226.215.149","port":"12709","uuid":"7875765c-3c12-402e-a76a-ff9e2bca8404","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云65","server":"129.226.95.143","port":"45381","uuid":"cd2a260c-f244-4e12-83c3-8a259cf29fc6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云22","server":"129.226.214.28","port":"15430","uuid":"6e9a4ae9-e60b-4cea-af9f-9de18d37404e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云10","server":"129.226.215.182","port":"14231","uuid":"5d10b5de-9eaf-45b1-c35e-ad4b1ade9820","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云48","server":"129.226.215.7","port":"28833","uuid":"e20eea47-f0f1-49b8-da1b-969693463008","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云68","server":"129.226.214.106","port":"56552","uuid":"107fd66d-0f00-4ec6-8c70-75f1ed180173","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-美国Microsoft公司77","server":"zhizun22.jafiyun.club","port":"21186","uuid":"4c348c16-6c18-3ee6-81d3-052c7f4d4b65","alterId":"2","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云1","server":"129.226.213.241","port":"24824","uuid":"8c1e17cf-c378-403f-862c-62897510116c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云17","server":"129.226.216.121","port":"49381","uuid":"2f6d0f82-80c4-42ed-fd46-c76e7cc81de0","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云57","server":"129.226.217.6","port":"58599","uuid":"db312c19-1116-4656-d5d2-8b3adc21f117","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云24","server":"129.226.215.176","port":"46601","uuid":"57becf81-97bd-46fe-8022-a4bfbca4df8e","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云18","server":"129.226.215.139","port":"51936","uuid":"8720623e-1c52-4205-f5da-5762b5010ea0","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云29","server":"129.226.215.70","port":"27155","uuid":"645f2069-74f0-4ea9-c1a3-584d7e80f453","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云29","server":"129.226.215.70","port":"27155","uuid":"645f2069-74f0-4ea9-c1a3-584d7e80f453","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云15","server":"129.226.216.176","port":"46865","uuid":"dbc10445-901c-44e1-be29-1f011c53ab1d","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云54","server":"129.226.217.139","port":"35846","uuid":"5d468799-dff3-4ecd-8323-c3ee23094069","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云4","server":"129.226.216.119","port":"21863","uuid":"3daf7487-9879-494a-c563-2904d58a17b8","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/v2rayfree-新加坡腾讯云12","server":"129.226.93.161","port":"40236","uuid":"931416fe-98f2-4098-c8e7-3634e27ce6f4","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"Relay_🇸🇬SG-🇺🇸US_1780","server":"sg2.v2yyds.cc","port":32110,"password":"c0669346-7ba9-4fda-91a4-238fb8d0a4d2","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云57","server":"129.226.217.6","port":"58599","uuid":"db312c19-1116-4656-d5d2-8b3adc21f117","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"github.com/freefq-新加坡腾讯云31","server":"129.226.93.150","port":"45611","uuid":"e5a5e157-f474-43b9-ad07-a1edb5fc21c4","alterId":"0","cipher":"auto","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - github.com/freefq-美国Microsoft公司26
-      - Relay_🇨🇳CN-🇨🇦CA_10
-      - github.com/freefq+-+美国++17
-      - Relay_🇺🇸US-🇺🇸US_2836
-      - Relay_🇺🇸US-🇷🇺RU_21
-      - Relay_🇺🇸US-🇷🇺RU_1457
-      - 🇨🇳CN_85|1.64Mb
-      - github.com/freefq-美国CloudFlare公司CDN节点20
-      - github.com/freefq+-+美国++15
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
-      - github.com/v2rayfree+-+美国++15
-      - Relay_🇨🇳CN-🇩🇪DE_08
-      - Relay_🇫🇷FR-🇺🇸US_376
-      - github.com/freefq+-+新加坡Linode数据中心+21
-      - Relay_🇨🇳CN-🇷🇺RU_11
+      - Relay_🇨🇳CN-🇨🇦CA_11
       - 🇸🇬+SG_146+|43.17Mb
-      - 🇺🇸US_1919+|+2.02Mb
-      - Relay_🇺🇸US-🇩🇪DE_23
-      - github.com/freefq-美国CloudFlare节点28
-      - Relay_🇨🇳CN-🇷🇺RU_07
-      - Relay_🇺🇸US-🇺🇸US_2840
-      - Relay_🇺🇸US-🇷🇺RU_1458
-      - 🇺🇸US_792
-      - github.com/freefq-广东省广州市移动25
-      - 🇸🇬+SG_113+TG@peekfun
-      - 🏁+ZZ_95
-      - github.com/freefq+-+俄罗斯++11
-      - 🇷🇴+RO_162+|+2.02Mb
-      - 🇱🇹+LT_148+|+2.51Mb
-      - github.com/freefq+-+英国++25
-      - 🇬🇧+GB_115+|+1.33Mb
-      - 🇨🇳+CN_36+|+2.55Mb
-      - 🇺🇸+US_206+|+2.03Mb
-      - 🇯🇵+JP_133+|17.14Mb
-      - github.com/v2rayfree+-+美国俄勒冈州波特兰Amazon数据中心+37
       - github.com/freefq+-+新加坡Linode数据中心+32
-      - github.com/freefq-美国Microsoft公司35
-      - Relay_🇸🇬+SG-🇸🇬SG_1670
-      - 🇸🇬+SG_1131+|+6.56Mb
+      - 🇺🇸US_132TG@peekfun
+      - Relay_🇺🇸US-🇺🇸US_3115
+      - Relay_🇨🇳CN-🇨🇦CA_13
+      - github.com/freefq+-+美国++7
+      - github.com/freefq+-+美国++29
+      - Relay_🇨🇳CN-🇨🇦CA_12
+      - Relay_🇺🇸US-🇺🇸US_2842
+      - github.com/freefq-美国CloudFlare公司CDN节点29
+      - ''
+      - github.com/freefq-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree+-+美国++15
+      - Relay_🇨🇳CN-🇷🇺RU_05
+      - github.com/v2rayfree-广东省广州市移动35
+      - Relay_🇨🇳CN-🇩🇪DE_17
+      - github.com/freefq-广东省广州市移动52
+      - Relay_🇺🇸US-🇷🇺RU_57
+      - github.com/freefq-新加坡Linode数据中心21
+      - 🇨🇳CN_85|1.64Mb
       - 🇺🇸US_1953+|+2.34Mb
-      - github.com/v2rayfree-美国Microsoft公司26
-      - github.com/freefq+-+美国++33
-      - Relay_🇺🇸US-🇺🇸US_2826
-      - github.com/v2rayfree+-+美国++17
-      - 🇸🇬SG_1179
-      - 🇸🇬+SG_96+|43.17Mb
-      - github.com/v2rayfree-广东省广州市移动25
-      - 🇺🇸US_1904|1.99Mb
-      - Relay_🇸🇬SG-🇺🇸US_1710
-      - github.com/freefq+-+新加坡Linode数据中心+36
-      - github.com/v2rayfree+-+新加坡Linode数据中心+21
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点18
-      - 🇺🇸US_787
-      - github.com/v2rayfree-美国CloudFlare节点28
-      - 🇯🇵JP_694
-      - Relay_🇺🇸US-🇺🇸US_2821
       - Relay_🇺🇸US-🇺🇸US_2830
+      - github.com/freefq-美国CloudFlare节点60
       - 🇺🇸US_1924+|+2.02Mb
+      - github.com/v2rayfree-广东省广州市移动25
+      - github.com/v2rayfree+-+美国++17
+      - github.com/freefq+-+美国++33
+      - github.com/v2rayfree+-+新加坡Linode数据中心+21
+      - Relay_🇺🇸US-🇺🇸US_2821
+      - Relay_🇺🇸US-🇷🇺RU_1461
+      - 🇫🇷FR_609|2.03Mb
+      - Relay_🇨🇳CN-🇷🇺RU_13
+      - 🇺🇸+US_160+|+9.09Mb
+      - Relay_🇺🇸US-🇺🇸US_2992
+      - Relay_🇺🇸US-🇺🇸US_3076
+      - Relay_🇨🇳CN-🇩🇪DE_15
+      - github.com/freefq-广东省广州市移动41
+      - Relay_🇦🇺AU-🇦🇺AU_88
+      - Relay_🇸🇬+SG-🇸🇬SG_1670
+      - github.com/freefq+-+新加坡Linode数据中心+36
+      - v2cross.com
+      - github.com/v2rayfree-广东省广州市移动34
+      - Relay_🇺🇸US-🇺🇸US_3083
+      - 🇺🇸US_787
+      - 🇸🇬+SG_96+|43.17Mb
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心27
+      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree-美国CloudFlare节点28
+      - 🇦🇺+AU_02+|+2.57Mb
+      - Relay_🇸🇬SG-🇺🇸US_1710
+      - 🇺🇸+US_167+|+2.03Mb
+      - 🇨🇳CN_50|1.64Mb
+      - github.com/freefq-美国Microsoft公司35
+      - 🇺🇸US_2042+|+2.27Mb
+      - 🇺🇸US_2402+|+2.50Mb
+      - Relay_🇺🇸US-🇺🇸US_3013
+      - github.com/v2rayfree-美国Microsoft公司26
+      - 🇺🇸+US_132+|24.32Mb
+      - Relay_🇺🇸US-🇺🇸US_2826
+      - github.com/freefq+-+美国++13
+      - github.com/v2rayfree+-+美国++7
+      - Relay_🇺🇸US-🇺🇸US_2828
+      - 🇸🇬+SG_1131+|+6.56Mb
+      - Relay_🇨🇳CN-🇨🇦CA_09
+      - 🇸🇬SG_1179
+      - 🇺🇸+US_206+|+2.03Mb
+      - Relay_🇺🇸US-🇺🇸US_3003
+      - 🇸🇬SG_1209+|+2.41Mb
+      - 🇸🇬SG_1210+|+2.16Mb
+      - github.com/freefq-新加坡腾讯云42
+      - github.com/v2rayfree-新加坡腾讯云56
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/v2rayfree-新加坡腾讯云46
+      - github.com/freefq-湖南省联通50
+      - github.com/v2rayfree-新加坡腾讯云1
+      - github.com/v2rayfree-新加坡腾讯云25
+      - github.com/v2rayfree+-+美国++51
+      - github.com/freefq-新加坡腾讯云56
+      - github.com/freefq-新加坡Linode数据中心69
+      - github.com/freefq-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云42
+      - github.com/freefq+-+美国++51
+      - github.com/freefq-新加坡腾讯云14
+      - Relay_🇸🇬SG-🇸🇬SG_1781
+      - github.com/freefq-新加坡腾讯云27
+      - github.com/v2rayfree-新加坡腾讯云63
+      - github.com/v2rayfree-新加坡腾讯云13
+      - github.com/freefq-新加坡腾讯云44
+      - github.com/freefq-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云30
+      - github.com/freefq-新加坡腾讯云21
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云46
+      - github.com/v2rayfree-湖南省联通50
+      - github.com/freefq-新加坡腾讯云48
+      - Relay_🇺🇸US-🇺🇸US_2937
+      - github.com/freefq-新加坡腾讯云65
+      - github.com/freefq-新加坡腾讯云12
+      - github.com/freefq-新加坡腾讯云10
+      - github.com/v2rayfree+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云63
+      - Relay_🇺🇸US-🇺🇸US_2930
+      - github.com/freefq+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云27
+      - github.com/freefq-新加坡腾讯云19
+      - github.com/v2rayfree-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云30
+      - github.com/freefq-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云11
+      - github.com/freefq-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云25
+      - github.com/v2rayfree-新加坡腾讯云14
+      - github.com/v2rayfree-新加坡腾讯云19
+      - github.com/freefq-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云49
+      - github.com/freefq-新加坡腾讯云49
+      - github.com/v2rayfree-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/v2rayfree-美国CloudFlare节点78
+      - github.com/v2rayfree-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云68
+      - github.com/v2rayfree-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云65
+      - github.com/v2rayfree-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云10
+      - github.com/v2rayfree-新加坡腾讯云48
+      - github.com/freefq-新加坡腾讯云68
+      - github.com/v2rayfree-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云1
+      - github.com/freefq-新加坡腾讯云17
+      - github.com/v2rayfree-新加坡腾讯云57
+      - github.com/v2rayfree-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云29
+      - github.com/v2rayfree-新加坡腾讯云29
+      - github.com/freefq-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云4
+      - github.com/v2rayfree-新加坡腾讯云12
+      - Relay_🇸🇬SG-🇺🇸US_1780
+      - github.com/freefq-新加坡腾讯云57
+      - github.com/freefq-新加坡腾讯云31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - github.com/freefq-美国Microsoft公司26
-      - Relay_🇨🇳CN-🇨🇦CA_10
-      - github.com/freefq+-+美国++17
-      - Relay_🇺🇸US-🇺🇸US_2836
-      - Relay_🇺🇸US-🇷🇺RU_21
-      - Relay_🇺🇸US-🇷🇺RU_1457
-      - 🇨🇳CN_85|1.64Mb
-      - github.com/freefq-美国CloudFlare公司CDN节点20
-      - github.com/freefq+-+美国++15
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
-      - github.com/v2rayfree+-+美国++15
-      - Relay_🇨🇳CN-🇩🇪DE_08
-      - Relay_🇫🇷FR-🇺🇸US_376
-      - github.com/freefq+-+新加坡Linode数据中心+21
-      - Relay_🇨🇳CN-🇷🇺RU_11
+      - Relay_🇨🇳CN-🇨🇦CA_11
       - 🇸🇬+SG_146+|43.17Mb
-      - 🇺🇸US_1919+|+2.02Mb
-      - Relay_🇺🇸US-🇩🇪DE_23
-      - github.com/freefq-美国CloudFlare节点28
-      - Relay_🇨🇳CN-🇷🇺RU_07
-      - Relay_🇺🇸US-🇺🇸US_2840
-      - Relay_🇺🇸US-🇷🇺RU_1458
-      - 🇺🇸US_792
-      - github.com/freefq-广东省广州市移动25
-      - 🇸🇬+SG_113+TG@peekfun
-      - 🏁+ZZ_95
-      - github.com/freefq+-+俄罗斯++11
-      - 🇷🇴+RO_162+|+2.02Mb
-      - 🇱🇹+LT_148+|+2.51Mb
-      - github.com/freefq+-+英国++25
-      - 🇬🇧+GB_115+|+1.33Mb
-      - 🇨🇳+CN_36+|+2.55Mb
-      - 🇺🇸+US_206+|+2.03Mb
-      - 🇯🇵+JP_133+|17.14Mb
-      - github.com/v2rayfree+-+美国俄勒冈州波特兰Amazon数据中心+37
       - github.com/freefq+-+新加坡Linode数据中心+32
-      - github.com/freefq-美国Microsoft公司35
-      - Relay_🇸🇬+SG-🇸🇬SG_1670
-      - 🇸🇬+SG_1131+|+6.56Mb
+      - 🇺🇸US_132TG@peekfun
+      - Relay_🇺🇸US-🇺🇸US_3115
+      - Relay_🇨🇳CN-🇨🇦CA_13
+      - github.com/freefq+-+美国++7
+      - github.com/freefq+-+美国++29
+      - Relay_🇨🇳CN-🇨🇦CA_12
+      - Relay_🇺🇸US-🇺🇸US_2842
+      - github.com/freefq-美国CloudFlare公司CDN节点29
+      - ''
+      - github.com/freefq-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree+-+美国++15
+      - Relay_🇨🇳CN-🇷🇺RU_05
+      - github.com/v2rayfree-广东省广州市移动35
+      - Relay_🇨🇳CN-🇩🇪DE_17
+      - github.com/freefq-广东省广州市移动52
+      - Relay_🇺🇸US-🇷🇺RU_57
+      - github.com/freefq-新加坡Linode数据中心21
+      - 🇨🇳CN_85|1.64Mb
       - 🇺🇸US_1953+|+2.34Mb
-      - github.com/v2rayfree-美国Microsoft公司26
-      - github.com/freefq+-+美国++33
-      - Relay_🇺🇸US-🇺🇸US_2826
-      - github.com/v2rayfree+-+美国++17
-      - 🇸🇬SG_1179
-      - 🇸🇬+SG_96+|43.17Mb
-      - github.com/v2rayfree-广东省广州市移动25
-      - 🇺🇸US_1904|1.99Mb
-      - Relay_🇸🇬SG-🇺🇸US_1710
-      - github.com/freefq+-+新加坡Linode数据中心+36
-      - github.com/v2rayfree+-+新加坡Linode数据中心+21
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点18
-      - 🇺🇸US_787
-      - github.com/v2rayfree-美国CloudFlare节点28
-      - 🇯🇵JP_694
-      - Relay_🇺🇸US-🇺🇸US_2821
       - Relay_🇺🇸US-🇺🇸US_2830
+      - github.com/freefq-美国CloudFlare节点60
       - 🇺🇸US_1924+|+2.02Mb
+      - github.com/v2rayfree-广东省广州市移动25
+      - github.com/v2rayfree+-+美国++17
+      - github.com/freefq+-+美国++33
+      - github.com/v2rayfree+-+新加坡Linode数据中心+21
+      - Relay_🇺🇸US-🇺🇸US_2821
+      - Relay_🇺🇸US-🇷🇺RU_1461
+      - 🇫🇷FR_609|2.03Mb
+      - Relay_🇨🇳CN-🇷🇺RU_13
+      - 🇺🇸+US_160+|+9.09Mb
+      - Relay_🇺🇸US-🇺🇸US_2992
+      - Relay_🇺🇸US-🇺🇸US_3076
+      - Relay_🇨🇳CN-🇩🇪DE_15
+      - github.com/freefq-广东省广州市移动41
+      - Relay_🇦🇺AU-🇦🇺AU_88
+      - Relay_🇸🇬+SG-🇸🇬SG_1670
+      - github.com/freefq+-+新加坡Linode数据中心+36
+      - v2cross.com
+      - github.com/v2rayfree-广东省广州市移动34
+      - Relay_🇺🇸US-🇺🇸US_3083
+      - 🇺🇸US_787
+      - 🇸🇬+SG_96+|43.17Mb
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心27
+      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree-美国CloudFlare节点28
+      - 🇦🇺+AU_02+|+2.57Mb
+      - Relay_🇸🇬SG-🇺🇸US_1710
+      - 🇺🇸+US_167+|+2.03Mb
+      - 🇨🇳CN_50|1.64Mb
+      - github.com/freefq-美国Microsoft公司35
+      - 🇺🇸US_2042+|+2.27Mb
+      - 🇺🇸US_2402+|+2.50Mb
+      - Relay_🇺🇸US-🇺🇸US_3013
+      - github.com/v2rayfree-美国Microsoft公司26
+      - 🇺🇸+US_132+|24.32Mb
+      - Relay_🇺🇸US-🇺🇸US_2826
+      - github.com/freefq+-+美国++13
+      - github.com/v2rayfree+-+美国++7
+      - Relay_🇺🇸US-🇺🇸US_2828
+      - 🇸🇬+SG_1131+|+6.56Mb
+      - Relay_🇨🇳CN-🇨🇦CA_09
+      - 🇸🇬SG_1179
+      - 🇺🇸+US_206+|+2.03Mb
+      - Relay_🇺🇸US-🇺🇸US_3003
+      - 🇸🇬SG_1209+|+2.41Mb
+      - 🇸🇬SG_1210+|+2.16Mb
+      - github.com/freefq-新加坡腾讯云42
+      - github.com/v2rayfree-新加坡腾讯云56
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/v2rayfree-新加坡腾讯云46
+      - github.com/freefq-湖南省联通50
+      - github.com/v2rayfree-新加坡腾讯云1
+      - github.com/v2rayfree-新加坡腾讯云25
+      - github.com/v2rayfree+-+美国++51
+      - github.com/freefq-新加坡腾讯云56
+      - github.com/freefq-新加坡Linode数据中心69
+      - github.com/freefq-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云42
+      - github.com/freefq+-+美国++51
+      - github.com/freefq-新加坡腾讯云14
+      - Relay_🇸🇬SG-🇸🇬SG_1781
+      - github.com/freefq-新加坡腾讯云27
+      - github.com/v2rayfree-新加坡腾讯云63
+      - github.com/v2rayfree-新加坡腾讯云13
+      - github.com/freefq-新加坡腾讯云44
+      - github.com/freefq-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云30
+      - github.com/freefq-新加坡腾讯云21
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云46
+      - github.com/v2rayfree-湖南省联通50
+      - github.com/freefq-新加坡腾讯云48
+      - Relay_🇺🇸US-🇺🇸US_2937
+      - github.com/freefq-新加坡腾讯云65
+      - github.com/freefq-新加坡腾讯云12
+      - github.com/freefq-新加坡腾讯云10
+      - github.com/v2rayfree+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云63
+      - Relay_🇺🇸US-🇺🇸US_2930
+      - github.com/freefq+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云27
+      - github.com/freefq-新加坡腾讯云19
+      - github.com/v2rayfree-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云30
+      - github.com/freefq-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云11
+      - github.com/freefq-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云25
+      - github.com/v2rayfree-新加坡腾讯云14
+      - github.com/v2rayfree-新加坡腾讯云19
+      - github.com/freefq-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云49
+      - github.com/freefq-新加坡腾讯云49
+      - github.com/v2rayfree-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/v2rayfree-美国CloudFlare节点78
+      - github.com/v2rayfree-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云68
+      - github.com/v2rayfree-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云65
+      - github.com/v2rayfree-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云10
+      - github.com/v2rayfree-新加坡腾讯云48
+      - github.com/freefq-新加坡腾讯云68
+      - github.com/v2rayfree-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云1
+      - github.com/freefq-新加坡腾讯云17
+      - github.com/v2rayfree-新加坡腾讯云57
+      - github.com/v2rayfree-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云29
+      - github.com/v2rayfree-新加坡腾讯云29
+      - github.com/freefq-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云4
+      - github.com/v2rayfree-新加坡腾讯云12
+      - Relay_🇸🇬SG-🇺🇸US_1780
+      - github.com/freefq-新加坡腾讯云57
+      - github.com/freefq-新加坡腾讯云31
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq-美国Microsoft公司26
-      - Relay_🇨🇳CN-🇨🇦CA_10
-      - github.com/freefq+-+美国++17
-      - Relay_🇺🇸US-🇺🇸US_2836
-      - Relay_🇺🇸US-🇷🇺RU_21
-      - Relay_🇺🇸US-🇷🇺RU_1457
-      - 🇨🇳CN_85|1.64Mb
-      - github.com/freefq-美国CloudFlare公司CDN节点20
-      - github.com/freefq+-+美国++15
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
-      - github.com/v2rayfree+-+美国++15
-      - Relay_🇨🇳CN-🇩🇪DE_08
-      - Relay_🇫🇷FR-🇺🇸US_376
-      - github.com/freefq+-+新加坡Linode数据中心+21
-      - Relay_🇨🇳CN-🇷🇺RU_11
+      - Relay_🇨🇳CN-🇨🇦CA_11
       - 🇸🇬+SG_146+|43.17Mb
-      - 🇺🇸US_1919+|+2.02Mb
-      - Relay_🇺🇸US-🇩🇪DE_23
-      - github.com/freefq-美国CloudFlare节点28
-      - Relay_🇨🇳CN-🇷🇺RU_07
-      - Relay_🇺🇸US-🇺🇸US_2840
-      - Relay_🇺🇸US-🇷🇺RU_1458
-      - 🇺🇸US_792
-      - github.com/freefq-广东省广州市移动25
-      - 🇸🇬+SG_113+TG@peekfun
-      - 🏁+ZZ_95
-      - github.com/freefq+-+俄罗斯++11
-      - 🇷🇴+RO_162+|+2.02Mb
-      - 🇱🇹+LT_148+|+2.51Mb
-      - github.com/freefq+-+英国++25
-      - 🇬🇧+GB_115+|+1.33Mb
-      - 🇨🇳+CN_36+|+2.55Mb
-      - 🇺🇸+US_206+|+2.03Mb
-      - 🇯🇵+JP_133+|17.14Mb
-      - github.com/v2rayfree+-+美国俄勒冈州波特兰Amazon数据中心+37
       - github.com/freefq+-+新加坡Linode数据中心+32
-      - github.com/freefq-美国Microsoft公司35
-      - Relay_🇸🇬+SG-🇸🇬SG_1670
-      - 🇸🇬+SG_1131+|+6.56Mb
+      - 🇺🇸US_132TG@peekfun
+      - Relay_🇺🇸US-🇺🇸US_3115
+      - Relay_🇨🇳CN-🇨🇦CA_13
+      - github.com/freefq+-+美国++7
+      - github.com/freefq+-+美国++29
+      - Relay_🇨🇳CN-🇨🇦CA_12
+      - Relay_🇺🇸US-🇺🇸US_2842
+      - github.com/freefq-美国CloudFlare公司CDN节点29
+      - ''
+      - github.com/freefq-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree+-+美国++15
+      - Relay_🇨🇳CN-🇷🇺RU_05
+      - github.com/v2rayfree-广东省广州市移动35
+      - Relay_🇨🇳CN-🇩🇪DE_17
+      - github.com/freefq-广东省广州市移动52
+      - Relay_🇺🇸US-🇷🇺RU_57
+      - github.com/freefq-新加坡Linode数据中心21
+      - 🇨🇳CN_85|1.64Mb
       - 🇺🇸US_1953+|+2.34Mb
-      - github.com/v2rayfree-美国Microsoft公司26
-      - github.com/freefq+-+美国++33
-      - Relay_🇺🇸US-🇺🇸US_2826
-      - github.com/v2rayfree+-+美国++17
-      - 🇸🇬SG_1179
-      - 🇸🇬+SG_96+|43.17Mb
-      - github.com/v2rayfree-广东省广州市移动25
-      - 🇺🇸US_1904|1.99Mb
-      - Relay_🇸🇬SG-🇺🇸US_1710
-      - github.com/freefq+-+新加坡Linode数据中心+36
-      - github.com/v2rayfree+-+新加坡Linode数据中心+21
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点18
-      - 🇺🇸US_787
-      - github.com/v2rayfree-美国CloudFlare节点28
-      - 🇯🇵JP_694
-      - Relay_🇺🇸US-🇺🇸US_2821
       - Relay_🇺🇸US-🇺🇸US_2830
+      - github.com/freefq-美国CloudFlare节点60
       - 🇺🇸US_1924+|+2.02Mb
+      - github.com/v2rayfree-广东省广州市移动25
+      - github.com/v2rayfree+-+美国++17
+      - github.com/freefq+-+美国++33
+      - github.com/v2rayfree+-+新加坡Linode数据中心+21
+      - Relay_🇺🇸US-🇺🇸US_2821
+      - Relay_🇺🇸US-🇷🇺RU_1461
+      - 🇫🇷FR_609|2.03Mb
+      - Relay_🇨🇳CN-🇷🇺RU_13
+      - 🇺🇸+US_160+|+9.09Mb
+      - Relay_🇺🇸US-🇺🇸US_2992
+      - Relay_🇺🇸US-🇺🇸US_3076
+      - Relay_🇨🇳CN-🇩🇪DE_15
+      - github.com/freefq-广东省广州市移动41
+      - Relay_🇦🇺AU-🇦🇺AU_88
+      - Relay_🇸🇬+SG-🇸🇬SG_1670
+      - github.com/freefq+-+新加坡Linode数据中心+36
+      - v2cross.com
+      - github.com/v2rayfree-广东省广州市移动34
+      - Relay_🇺🇸US-🇺🇸US_3083
+      - 🇺🇸US_787
+      - 🇸🇬+SG_96+|43.17Mb
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心27
+      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree-美国CloudFlare节点28
+      - 🇦🇺+AU_02+|+2.57Mb
+      - Relay_🇸🇬SG-🇺🇸US_1710
+      - 🇺🇸+US_167+|+2.03Mb
+      - 🇨🇳CN_50|1.64Mb
+      - github.com/freefq-美国Microsoft公司35
+      - 🇺🇸US_2042+|+2.27Mb
+      - 🇺🇸US_2402+|+2.50Mb
+      - Relay_🇺🇸US-🇺🇸US_3013
+      - github.com/v2rayfree-美国Microsoft公司26
+      - 🇺🇸+US_132+|24.32Mb
+      - Relay_🇺🇸US-🇺🇸US_2826
+      - github.com/freefq+-+美国++13
+      - github.com/v2rayfree+-+美国++7
+      - Relay_🇺🇸US-🇺🇸US_2828
+      - 🇸🇬+SG_1131+|+6.56Mb
+      - Relay_🇨🇳CN-🇨🇦CA_09
+      - 🇸🇬SG_1179
+      - 🇺🇸+US_206+|+2.03Mb
+      - Relay_🇺🇸US-🇺🇸US_3003
+      - 🇸🇬SG_1209+|+2.41Mb
+      - 🇸🇬SG_1210+|+2.16Mb
+      - github.com/freefq-新加坡腾讯云42
+      - github.com/v2rayfree-新加坡腾讯云56
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/v2rayfree-新加坡腾讯云46
+      - github.com/freefq-湖南省联通50
+      - github.com/v2rayfree-新加坡腾讯云1
+      - github.com/v2rayfree-新加坡腾讯云25
+      - github.com/v2rayfree+-+美国++51
+      - github.com/freefq-新加坡腾讯云56
+      - github.com/freefq-新加坡Linode数据中心69
+      - github.com/freefq-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云42
+      - github.com/freefq+-+美国++51
+      - github.com/freefq-新加坡腾讯云14
+      - Relay_🇸🇬SG-🇸🇬SG_1781
+      - github.com/freefq-新加坡腾讯云27
+      - github.com/v2rayfree-新加坡腾讯云63
+      - github.com/v2rayfree-新加坡腾讯云13
+      - github.com/freefq-新加坡腾讯云44
+      - github.com/freefq-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云30
+      - github.com/freefq-新加坡腾讯云21
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云46
+      - github.com/v2rayfree-湖南省联通50
+      - github.com/freefq-新加坡腾讯云48
+      - Relay_🇺🇸US-🇺🇸US_2937
+      - github.com/freefq-新加坡腾讯云65
+      - github.com/freefq-新加坡腾讯云12
+      - github.com/freefq-新加坡腾讯云10
+      - github.com/v2rayfree+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云63
+      - Relay_🇺🇸US-🇺🇸US_2930
+      - github.com/freefq+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云27
+      - github.com/freefq-新加坡腾讯云19
+      - github.com/v2rayfree-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云30
+      - github.com/freefq-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云11
+      - github.com/freefq-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云25
+      - github.com/v2rayfree-新加坡腾讯云14
+      - github.com/v2rayfree-新加坡腾讯云19
+      - github.com/freefq-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云49
+      - github.com/freefq-新加坡腾讯云49
+      - github.com/v2rayfree-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/v2rayfree-美国CloudFlare节点78
+      - github.com/v2rayfree-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云68
+      - github.com/v2rayfree-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云65
+      - github.com/v2rayfree-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云10
+      - github.com/v2rayfree-新加坡腾讯云48
+      - github.com/freefq-新加坡腾讯云68
+      - github.com/v2rayfree-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云1
+      - github.com/freefq-新加坡腾讯云17
+      - github.com/v2rayfree-新加坡腾讯云57
+      - github.com/v2rayfree-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云29
+      - github.com/v2rayfree-新加坡腾讯云29
+      - github.com/freefq-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云4
+      - github.com/v2rayfree-新加坡腾讯云12
+      - Relay_🇸🇬SG-🇺🇸US_1780
+      - github.com/freefq-新加坡腾讯云57
+      - github.com/freefq-新加坡腾讯云31
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/freefq-美国Microsoft公司26
-      - Relay_🇨🇳CN-🇨🇦CA_10
-      - github.com/freefq+-+美国++17
-      - Relay_🇺🇸US-🇺🇸US_2836
-      - Relay_🇺🇸US-🇷🇺RU_21
-      - Relay_🇺🇸US-🇷🇺RU_1457
-      - 🇨🇳CN_85|1.64Mb
-      - github.com/freefq-美国CloudFlare公司CDN节点20
-      - github.com/freefq+-+美国++15
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
-      - github.com/v2rayfree+-+美国++15
-      - Relay_🇨🇳CN-🇩🇪DE_08
-      - Relay_🇫🇷FR-🇺🇸US_376
-      - github.com/freefq+-+新加坡Linode数据中心+21
-      - Relay_🇨🇳CN-🇷🇺RU_11
+      - Relay_🇨🇳CN-🇨🇦CA_11
       - 🇸🇬+SG_146+|43.17Mb
-      - 🇺🇸US_1919+|+2.02Mb
-      - Relay_🇺🇸US-🇩🇪DE_23
-      - github.com/freefq-美国CloudFlare节点28
-      - Relay_🇨🇳CN-🇷🇺RU_07
-      - Relay_🇺🇸US-🇺🇸US_2840
-      - Relay_🇺🇸US-🇷🇺RU_1458
-      - 🇺🇸US_792
-      - github.com/freefq-广东省广州市移动25
-      - 🇸🇬+SG_113+TG@peekfun
-      - 🏁+ZZ_95
-      - github.com/freefq+-+俄罗斯++11
-      - 🇷🇴+RO_162+|+2.02Mb
-      - 🇱🇹+LT_148+|+2.51Mb
-      - github.com/freefq+-+英国++25
-      - 🇬🇧+GB_115+|+1.33Mb
-      - 🇨🇳+CN_36+|+2.55Mb
-      - 🇺🇸+US_206+|+2.03Mb
-      - 🇯🇵+JP_133+|17.14Mb
-      - github.com/v2rayfree+-+美国俄勒冈州波特兰Amazon数据中心+37
       - github.com/freefq+-+新加坡Linode数据中心+32
-      - github.com/freefq-美国Microsoft公司35
-      - Relay_🇸🇬+SG-🇸🇬SG_1670
-      - 🇸🇬+SG_1131+|+6.56Mb
+      - 🇺🇸US_132TG@peekfun
+      - Relay_🇺🇸US-🇺🇸US_3115
+      - Relay_🇨🇳CN-🇨🇦CA_13
+      - github.com/freefq+-+美国++7
+      - github.com/freefq+-+美国++29
+      - Relay_🇨🇳CN-🇨🇦CA_12
+      - Relay_🇺🇸US-🇺🇸US_2842
+      - github.com/freefq-美国CloudFlare公司CDN节点29
+      - ''
+      - github.com/freefq-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree+-+美国++15
+      - Relay_🇨🇳CN-🇷🇺RU_05
+      - github.com/v2rayfree-广东省广州市移动35
+      - Relay_🇨🇳CN-🇩🇪DE_17
+      - github.com/freefq-广东省广州市移动52
+      - Relay_🇺🇸US-🇷🇺RU_57
+      - github.com/freefq-新加坡Linode数据中心21
+      - 🇨🇳CN_85|1.64Mb
       - 🇺🇸US_1953+|+2.34Mb
-      - github.com/v2rayfree-美国Microsoft公司26
-      - github.com/freefq+-+美国++33
-      - Relay_🇺🇸US-🇺🇸US_2826
-      - github.com/v2rayfree+-+美国++17
-      - 🇸🇬SG_1179
-      - 🇸🇬+SG_96+|43.17Mb
-      - github.com/v2rayfree-广东省广州市移动25
-      - 🇺🇸US_1904|1.99Mb
-      - Relay_🇸🇬SG-🇺🇸US_1710
-      - github.com/freefq+-+新加坡Linode数据中心+36
-      - github.com/v2rayfree+-+新加坡Linode数据中心+21
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点18
-      - 🇺🇸US_787
-      - github.com/v2rayfree-美国CloudFlare节点28
-      - 🇯🇵JP_694
-      - Relay_🇺🇸US-🇺🇸US_2821
       - Relay_🇺🇸US-🇺🇸US_2830
+      - github.com/freefq-美国CloudFlare节点60
       - 🇺🇸US_1924+|+2.02Mb
+      - github.com/v2rayfree-广东省广州市移动25
+      - github.com/v2rayfree+-+美国++17
+      - github.com/freefq+-+美国++33
+      - github.com/v2rayfree+-+新加坡Linode数据中心+21
+      - Relay_🇺🇸US-🇺🇸US_2821
+      - Relay_🇺🇸US-🇷🇺RU_1461
+      - 🇫🇷FR_609|2.03Mb
+      - Relay_🇨🇳CN-🇷🇺RU_13
+      - 🇺🇸+US_160+|+9.09Mb
+      - Relay_🇺🇸US-🇺🇸US_2992
+      - Relay_🇺🇸US-🇺🇸US_3076
+      - Relay_🇨🇳CN-🇩🇪DE_15
+      - github.com/freefq-广东省广州市移动41
+      - Relay_🇦🇺AU-🇦🇺AU_88
+      - Relay_🇸🇬+SG-🇸🇬SG_1670
+      - github.com/freefq+-+新加坡Linode数据中心+36
+      - v2cross.com
+      - github.com/v2rayfree-广东省广州市移动34
+      - Relay_🇺🇸US-🇺🇸US_3083
+      - 🇺🇸US_787
+      - 🇸🇬+SG_96+|43.17Mb
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心27
+      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree-美国CloudFlare节点28
+      - 🇦🇺+AU_02+|+2.57Mb
+      - Relay_🇸🇬SG-🇺🇸US_1710
+      - 🇺🇸+US_167+|+2.03Mb
+      - 🇨🇳CN_50|1.64Mb
+      - github.com/freefq-美国Microsoft公司35
+      - 🇺🇸US_2042+|+2.27Mb
+      - 🇺🇸US_2402+|+2.50Mb
+      - Relay_🇺🇸US-🇺🇸US_3013
+      - github.com/v2rayfree-美国Microsoft公司26
+      - 🇺🇸+US_132+|24.32Mb
+      - Relay_🇺🇸US-🇺🇸US_2826
+      - github.com/freefq+-+美国++13
+      - github.com/v2rayfree+-+美国++7
+      - Relay_🇺🇸US-🇺🇸US_2828
+      - 🇸🇬+SG_1131+|+6.56Mb
+      - Relay_🇨🇳CN-🇨🇦CA_09
+      - 🇸🇬SG_1179
+      - 🇺🇸+US_206+|+2.03Mb
+      - Relay_🇺🇸US-🇺🇸US_3003
+      - 🇸🇬SG_1209+|+2.41Mb
+      - 🇸🇬SG_1210+|+2.16Mb
+      - github.com/freefq-新加坡腾讯云42
+      - github.com/v2rayfree-新加坡腾讯云56
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/v2rayfree-新加坡腾讯云46
+      - github.com/freefq-湖南省联通50
+      - github.com/v2rayfree-新加坡腾讯云1
+      - github.com/v2rayfree-新加坡腾讯云25
+      - github.com/v2rayfree+-+美国++51
+      - github.com/freefq-新加坡腾讯云56
+      - github.com/freefq-新加坡Linode数据中心69
+      - github.com/freefq-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云42
+      - github.com/freefq+-+美国++51
+      - github.com/freefq-新加坡腾讯云14
+      - Relay_🇸🇬SG-🇸🇬SG_1781
+      - github.com/freefq-新加坡腾讯云27
+      - github.com/v2rayfree-新加坡腾讯云63
+      - github.com/v2rayfree-新加坡腾讯云13
+      - github.com/freefq-新加坡腾讯云44
+      - github.com/freefq-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云30
+      - github.com/freefq-新加坡腾讯云21
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云46
+      - github.com/v2rayfree-湖南省联通50
+      - github.com/freefq-新加坡腾讯云48
+      - Relay_🇺🇸US-🇺🇸US_2937
+      - github.com/freefq-新加坡腾讯云65
+      - github.com/freefq-新加坡腾讯云12
+      - github.com/freefq-新加坡腾讯云10
+      - github.com/v2rayfree+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云63
+      - Relay_🇺🇸US-🇺🇸US_2930
+      - github.com/freefq+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云27
+      - github.com/freefq-新加坡腾讯云19
+      - github.com/v2rayfree-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云30
+      - github.com/freefq-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云11
+      - github.com/freefq-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云25
+      - github.com/v2rayfree-新加坡腾讯云14
+      - github.com/v2rayfree-新加坡腾讯云19
+      - github.com/freefq-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云49
+      - github.com/freefq-新加坡腾讯云49
+      - github.com/v2rayfree-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/v2rayfree-美国CloudFlare节点78
+      - github.com/v2rayfree-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云68
+      - github.com/v2rayfree-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云65
+      - github.com/v2rayfree-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云10
+      - github.com/v2rayfree-新加坡腾讯云48
+      - github.com/freefq-新加坡腾讯云68
+      - github.com/v2rayfree-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云1
+      - github.com/freefq-新加坡腾讯云17
+      - github.com/v2rayfree-新加坡腾讯云57
+      - github.com/v2rayfree-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云29
+      - github.com/v2rayfree-新加坡腾讯云29
+      - github.com/freefq-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云4
+      - github.com/v2rayfree-新加坡腾讯云12
+      - Relay_🇸🇬SG-🇺🇸US_1780
+      - github.com/freefq-新加坡腾讯云57
+      - github.com/freefq-新加坡腾讯云31
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - github.com/freefq-美国Microsoft公司26
-      - Relay_🇨🇳CN-🇨🇦CA_10
-      - github.com/freefq+-+美国++17
-      - Relay_🇺🇸US-🇺🇸US_2836
-      - Relay_🇺🇸US-🇷🇺RU_21
-      - Relay_🇺🇸US-🇷🇺RU_1457
-      - 🇨🇳CN_85|1.64Mb
-      - github.com/freefq-美国CloudFlare公司CDN节点20
-      - github.com/freefq+-+美国++15
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
-      - github.com/v2rayfree+-+美国++15
-      - Relay_🇨🇳CN-🇩🇪DE_08
-      - Relay_🇫🇷FR-🇺🇸US_376
-      - github.com/freefq+-+新加坡Linode数据中心+21
-      - Relay_🇨🇳CN-🇷🇺RU_11
+      - Relay_🇨🇳CN-🇨🇦CA_11
       - 🇸🇬+SG_146+|43.17Mb
-      - 🇺🇸US_1919+|+2.02Mb
-      - Relay_🇺🇸US-🇩🇪DE_23
-      - github.com/freefq-美国CloudFlare节点28
-      - Relay_🇨🇳CN-🇷🇺RU_07
-      - Relay_🇺🇸US-🇺🇸US_2840
-      - Relay_🇺🇸US-🇷🇺RU_1458
-      - 🇺🇸US_792
-      - github.com/freefq-广东省广州市移动25
-      - 🇸🇬+SG_113+TG@peekfun
-      - 🏁+ZZ_95
-      - github.com/freefq+-+俄罗斯++11
-      - 🇷🇴+RO_162+|+2.02Mb
-      - 🇱🇹+LT_148+|+2.51Mb
-      - github.com/freefq+-+英国++25
-      - 🇬🇧+GB_115+|+1.33Mb
-      - 🇨🇳+CN_36+|+2.55Mb
-      - 🇺🇸+US_206+|+2.03Mb
-      - 🇯🇵+JP_133+|17.14Mb
-      - github.com/v2rayfree+-+美国俄勒冈州波特兰Amazon数据中心+37
       - github.com/freefq+-+新加坡Linode数据中心+32
-      - github.com/freefq-美国Microsoft公司35
-      - Relay_🇸🇬+SG-🇸🇬SG_1670
-      - 🇸🇬+SG_1131+|+6.56Mb
+      - 🇺🇸US_132TG@peekfun
+      - Relay_🇺🇸US-🇺🇸US_3115
+      - Relay_🇨🇳CN-🇨🇦CA_13
+      - github.com/freefq+-+美国++7
+      - github.com/freefq+-+美国++29
+      - Relay_🇨🇳CN-🇨🇦CA_12
+      - Relay_🇺🇸US-🇺🇸US_2842
+      - github.com/freefq-美国CloudFlare公司CDN节点29
+      - ''
+      - github.com/freefq-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree+-+美国++15
+      - Relay_🇨🇳CN-🇷🇺RU_05
+      - github.com/v2rayfree-广东省广州市移动35
+      - Relay_🇨🇳CN-🇩🇪DE_17
+      - github.com/freefq-广东省广州市移动52
+      - Relay_🇺🇸US-🇷🇺RU_57
+      - github.com/freefq-新加坡Linode数据中心21
+      - 🇨🇳CN_85|1.64Mb
       - 🇺🇸US_1953+|+2.34Mb
-      - github.com/v2rayfree-美国Microsoft公司26
-      - github.com/freefq+-+美国++33
-      - Relay_🇺🇸US-🇺🇸US_2826
-      - github.com/v2rayfree+-+美国++17
-      - 🇸🇬SG_1179
-      - 🇸🇬+SG_96+|43.17Mb
-      - github.com/v2rayfree-广东省广州市移动25
-      - 🇺🇸US_1904|1.99Mb
-      - Relay_🇸🇬SG-🇺🇸US_1710
-      - github.com/freefq+-+新加坡Linode数据中心+36
-      - github.com/v2rayfree+-+新加坡Linode数据中心+21
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点18
-      - 🇺🇸US_787
-      - github.com/v2rayfree-美国CloudFlare节点28
-      - 🇯🇵JP_694
-      - Relay_🇺🇸US-🇺🇸US_2821
       - Relay_🇺🇸US-🇺🇸US_2830
+      - github.com/freefq-美国CloudFlare节点60
       - 🇺🇸US_1924+|+2.02Mb
+      - github.com/v2rayfree-广东省广州市移动25
+      - github.com/v2rayfree+-+美国++17
+      - github.com/freefq+-+美国++33
+      - github.com/v2rayfree+-+新加坡Linode数据中心+21
+      - Relay_🇺🇸US-🇺🇸US_2821
+      - Relay_🇺🇸US-🇷🇺RU_1461
+      - 🇫🇷FR_609|2.03Mb
+      - Relay_🇨🇳CN-🇷🇺RU_13
+      - 🇺🇸+US_160+|+9.09Mb
+      - Relay_🇺🇸US-🇺🇸US_2992
+      - Relay_🇺🇸US-🇺🇸US_3076
+      - Relay_🇨🇳CN-🇩🇪DE_15
+      - github.com/freefq-广东省广州市移动41
+      - Relay_🇦🇺AU-🇦🇺AU_88
+      - Relay_🇸🇬+SG-🇸🇬SG_1670
+      - github.com/freefq+-+新加坡Linode数据中心+36
+      - v2cross.com
+      - github.com/v2rayfree-广东省广州市移动34
+      - Relay_🇺🇸US-🇺🇸US_3083
+      - 🇺🇸US_787
+      - 🇸🇬+SG_96+|43.17Mb
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心27
+      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree-美国CloudFlare节点28
+      - 🇦🇺+AU_02+|+2.57Mb
+      - Relay_🇸🇬SG-🇺🇸US_1710
+      - 🇺🇸+US_167+|+2.03Mb
+      - 🇨🇳CN_50|1.64Mb
+      - github.com/freefq-美国Microsoft公司35
+      - 🇺🇸US_2042+|+2.27Mb
+      - 🇺🇸US_2402+|+2.50Mb
+      - Relay_🇺🇸US-🇺🇸US_3013
+      - github.com/v2rayfree-美国Microsoft公司26
+      - 🇺🇸+US_132+|24.32Mb
+      - Relay_🇺🇸US-🇺🇸US_2826
+      - github.com/freefq+-+美国++13
+      - github.com/v2rayfree+-+美国++7
+      - Relay_🇺🇸US-🇺🇸US_2828
+      - 🇸🇬+SG_1131+|+6.56Mb
+      - Relay_🇨🇳CN-🇨🇦CA_09
+      - 🇸🇬SG_1179
+      - 🇺🇸+US_206+|+2.03Mb
+      - Relay_🇺🇸US-🇺🇸US_3003
+      - 🇸🇬SG_1209+|+2.41Mb
+      - 🇸🇬SG_1210+|+2.16Mb
+      - github.com/freefq-新加坡腾讯云42
+      - github.com/v2rayfree-新加坡腾讯云56
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/v2rayfree-新加坡腾讯云46
+      - github.com/freefq-湖南省联通50
+      - github.com/v2rayfree-新加坡腾讯云1
+      - github.com/v2rayfree-新加坡腾讯云25
+      - github.com/v2rayfree+-+美国++51
+      - github.com/freefq-新加坡腾讯云56
+      - github.com/freefq-新加坡Linode数据中心69
+      - github.com/freefq-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云42
+      - github.com/freefq+-+美国++51
+      - github.com/freefq-新加坡腾讯云14
+      - Relay_🇸🇬SG-🇸🇬SG_1781
+      - github.com/freefq-新加坡腾讯云27
+      - github.com/v2rayfree-新加坡腾讯云63
+      - github.com/v2rayfree-新加坡腾讯云13
+      - github.com/freefq-新加坡腾讯云44
+      - github.com/freefq-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云30
+      - github.com/freefq-新加坡腾讯云21
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云46
+      - github.com/v2rayfree-湖南省联通50
+      - github.com/freefq-新加坡腾讯云48
+      - Relay_🇺🇸US-🇺🇸US_2937
+      - github.com/freefq-新加坡腾讯云65
+      - github.com/freefq-新加坡腾讯云12
+      - github.com/freefq-新加坡腾讯云10
+      - github.com/v2rayfree+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云63
+      - Relay_🇺🇸US-🇺🇸US_2930
+      - github.com/freefq+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云27
+      - github.com/freefq-新加坡腾讯云19
+      - github.com/v2rayfree-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云30
+      - github.com/freefq-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云11
+      - github.com/freefq-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云25
+      - github.com/v2rayfree-新加坡腾讯云14
+      - github.com/v2rayfree-新加坡腾讯云19
+      - github.com/freefq-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云49
+      - github.com/freefq-新加坡腾讯云49
+      - github.com/v2rayfree-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/v2rayfree-美国CloudFlare节点78
+      - github.com/v2rayfree-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云68
+      - github.com/v2rayfree-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云65
+      - github.com/v2rayfree-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云10
+      - github.com/v2rayfree-新加坡腾讯云48
+      - github.com/freefq-新加坡腾讯云68
+      - github.com/v2rayfree-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云1
+      - github.com/freefq-新加坡腾讯云17
+      - github.com/v2rayfree-新加坡腾讯云57
+      - github.com/v2rayfree-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云29
+      - github.com/v2rayfree-新加坡腾讯云29
+      - github.com/freefq-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云4
+      - github.com/v2rayfree-新加坡腾讯云12
+      - Relay_🇸🇬SG-🇺🇸US_1780
+      - github.com/freefq-新加坡腾讯云57
+      - github.com/freefq-新加坡腾讯云31
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - github.com/freefq-美国Microsoft公司26
-      - Relay_🇨🇳CN-🇨🇦CA_10
-      - github.com/freefq+-+美国++17
-      - Relay_🇺🇸US-🇺🇸US_2836
-      - Relay_🇺🇸US-🇷🇺RU_21
-      - Relay_🇺🇸US-🇷🇺RU_1457
-      - 🇨🇳CN_85|1.64Mb
-      - github.com/freefq-美国CloudFlare公司CDN节点20
-      - github.com/freefq+-+美国++15
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
-      - github.com/v2rayfree+-+美国++15
-      - Relay_🇨🇳CN-🇩🇪DE_08
-      - Relay_🇫🇷FR-🇺🇸US_376
-      - github.com/freefq+-+新加坡Linode数据中心+21
-      - Relay_🇨🇳CN-🇷🇺RU_11
+      - Relay_🇨🇳CN-🇨🇦CA_11
       - 🇸🇬+SG_146+|43.17Mb
-      - 🇺🇸US_1919+|+2.02Mb
-      - Relay_🇺🇸US-🇩🇪DE_23
-      - github.com/freefq-美国CloudFlare节点28
-      - Relay_🇨🇳CN-🇷🇺RU_07
-      - Relay_🇺🇸US-🇺🇸US_2840
-      - Relay_🇺🇸US-🇷🇺RU_1458
-      - 🇺🇸US_792
-      - github.com/freefq-广东省广州市移动25
-      - 🇸🇬+SG_113+TG@peekfun
-      - 🏁+ZZ_95
-      - github.com/freefq+-+俄罗斯++11
-      - 🇷🇴+RO_162+|+2.02Mb
-      - 🇱🇹+LT_148+|+2.51Mb
-      - github.com/freefq+-+英国++25
-      - 🇬🇧+GB_115+|+1.33Mb
-      - 🇨🇳+CN_36+|+2.55Mb
-      - 🇺🇸+US_206+|+2.03Mb
-      - 🇯🇵+JP_133+|17.14Mb
-      - github.com/v2rayfree+-+美国俄勒冈州波特兰Amazon数据中心+37
       - github.com/freefq+-+新加坡Linode数据中心+32
-      - github.com/freefq-美国Microsoft公司35
-      - Relay_🇸🇬+SG-🇸🇬SG_1670
-      - 🇸🇬+SG_1131+|+6.56Mb
+      - 🇺🇸US_132TG@peekfun
+      - Relay_🇺🇸US-🇺🇸US_3115
+      - Relay_🇨🇳CN-🇨🇦CA_13
+      - github.com/freefq+-+美国++7
+      - github.com/freefq+-+美国++29
+      - Relay_🇨🇳CN-🇨🇦CA_12
+      - Relay_🇺🇸US-🇺🇸US_2842
+      - github.com/freefq-美国CloudFlare公司CDN节点29
+      - ''
+      - github.com/freefq-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree+-+美国++15
+      - Relay_🇨🇳CN-🇷🇺RU_05
+      - github.com/v2rayfree-广东省广州市移动35
+      - Relay_🇨🇳CN-🇩🇪DE_17
+      - github.com/freefq-广东省广州市移动52
+      - Relay_🇺🇸US-🇷🇺RU_57
+      - github.com/freefq-新加坡Linode数据中心21
+      - 🇨🇳CN_85|1.64Mb
       - 🇺🇸US_1953+|+2.34Mb
-      - github.com/v2rayfree-美国Microsoft公司26
-      - github.com/freefq+-+美国++33
-      - Relay_🇺🇸US-🇺🇸US_2826
-      - github.com/v2rayfree+-+美国++17
-      - 🇸🇬SG_1179
-      - 🇸🇬+SG_96+|43.17Mb
-      - github.com/v2rayfree-广东省广州市移动25
-      - 🇺🇸US_1904|1.99Mb
-      - Relay_🇸🇬SG-🇺🇸US_1710
-      - github.com/freefq+-+新加坡Linode数据中心+36
-      - github.com/v2rayfree+-+新加坡Linode数据中心+21
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点18
-      - 🇺🇸US_787
-      - github.com/v2rayfree-美国CloudFlare节点28
-      - 🇯🇵JP_694
-      - Relay_🇺🇸US-🇺🇸US_2821
       - Relay_🇺🇸US-🇺🇸US_2830
+      - github.com/freefq-美国CloudFlare节点60
       - 🇺🇸US_1924+|+2.02Mb
+      - github.com/v2rayfree-广东省广州市移动25
+      - github.com/v2rayfree+-+美国++17
+      - github.com/freefq+-+美国++33
+      - github.com/v2rayfree+-+新加坡Linode数据中心+21
+      - Relay_🇺🇸US-🇺🇸US_2821
+      - Relay_🇺🇸US-🇷🇺RU_1461
+      - 🇫🇷FR_609|2.03Mb
+      - Relay_🇨🇳CN-🇷🇺RU_13
+      - 🇺🇸+US_160+|+9.09Mb
+      - Relay_🇺🇸US-🇺🇸US_2992
+      - Relay_🇺🇸US-🇺🇸US_3076
+      - Relay_🇨🇳CN-🇩🇪DE_15
+      - github.com/freefq-广东省广州市移动41
+      - Relay_🇦🇺AU-🇦🇺AU_88
+      - Relay_🇸🇬+SG-🇸🇬SG_1670
+      - github.com/freefq+-+新加坡Linode数据中心+36
+      - v2cross.com
+      - github.com/v2rayfree-广东省广州市移动34
+      - Relay_🇺🇸US-🇺🇸US_3083
+      - 🇺🇸US_787
+      - 🇸🇬+SG_96+|43.17Mb
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心27
+      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree-美国CloudFlare节点28
+      - 🇦🇺+AU_02+|+2.57Mb
+      - Relay_🇸🇬SG-🇺🇸US_1710
+      - 🇺🇸+US_167+|+2.03Mb
+      - 🇨🇳CN_50|1.64Mb
+      - github.com/freefq-美国Microsoft公司35
+      - 🇺🇸US_2042+|+2.27Mb
+      - 🇺🇸US_2402+|+2.50Mb
+      - Relay_🇺🇸US-🇺🇸US_3013
+      - github.com/v2rayfree-美国Microsoft公司26
+      - 🇺🇸+US_132+|24.32Mb
+      - Relay_🇺🇸US-🇺🇸US_2826
+      - github.com/freefq+-+美国++13
+      - github.com/v2rayfree+-+美国++7
+      - Relay_🇺🇸US-🇺🇸US_2828
+      - 🇸🇬+SG_1131+|+6.56Mb
+      - Relay_🇨🇳CN-🇨🇦CA_09
+      - 🇸🇬SG_1179
+      - 🇺🇸+US_206+|+2.03Mb
+      - Relay_🇺🇸US-🇺🇸US_3003
+      - 🇸🇬SG_1209+|+2.41Mb
+      - 🇸🇬SG_1210+|+2.16Mb
+      - github.com/freefq-新加坡腾讯云42
+      - github.com/v2rayfree-新加坡腾讯云56
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/v2rayfree-新加坡腾讯云46
+      - github.com/freefq-湖南省联通50
+      - github.com/v2rayfree-新加坡腾讯云1
+      - github.com/v2rayfree-新加坡腾讯云25
+      - github.com/v2rayfree+-+美国++51
+      - github.com/freefq-新加坡腾讯云56
+      - github.com/freefq-新加坡Linode数据中心69
+      - github.com/freefq-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云42
+      - github.com/freefq+-+美国++51
+      - github.com/freefq-新加坡腾讯云14
+      - Relay_🇸🇬SG-🇸🇬SG_1781
+      - github.com/freefq-新加坡腾讯云27
+      - github.com/v2rayfree-新加坡腾讯云63
+      - github.com/v2rayfree-新加坡腾讯云13
+      - github.com/freefq-新加坡腾讯云44
+      - github.com/freefq-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云30
+      - github.com/freefq-新加坡腾讯云21
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云46
+      - github.com/v2rayfree-湖南省联通50
+      - github.com/freefq-新加坡腾讯云48
+      - Relay_🇺🇸US-🇺🇸US_2937
+      - github.com/freefq-新加坡腾讯云65
+      - github.com/freefq-新加坡腾讯云12
+      - github.com/freefq-新加坡腾讯云10
+      - github.com/v2rayfree+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云63
+      - Relay_🇺🇸US-🇺🇸US_2930
+      - github.com/freefq+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云27
+      - github.com/freefq-新加坡腾讯云19
+      - github.com/v2rayfree-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云30
+      - github.com/freefq-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云11
+      - github.com/freefq-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云25
+      - github.com/v2rayfree-新加坡腾讯云14
+      - github.com/v2rayfree-新加坡腾讯云19
+      - github.com/freefq-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云49
+      - github.com/freefq-新加坡腾讯云49
+      - github.com/v2rayfree-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/v2rayfree-美国CloudFlare节点78
+      - github.com/v2rayfree-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云68
+      - github.com/v2rayfree-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云65
+      - github.com/v2rayfree-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云10
+      - github.com/v2rayfree-新加坡腾讯云48
+      - github.com/freefq-新加坡腾讯云68
+      - github.com/v2rayfree-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云1
+      - github.com/freefq-新加坡腾讯云17
+      - github.com/v2rayfree-新加坡腾讯云57
+      - github.com/v2rayfree-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云29
+      - github.com/v2rayfree-新加坡腾讯云29
+      - github.com/freefq-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云4
+      - github.com/v2rayfree-新加坡腾讯云12
+      - Relay_🇸🇬SG-🇺🇸US_1780
+      - github.com/freefq-新加坡腾讯云57
+      - github.com/freefq-新加坡腾讯云31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -466,64 +1089,153 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq-美国Microsoft公司26
-      - Relay_🇨🇳CN-🇨🇦CA_10
-      - github.com/freefq+-+美国++17
-      - Relay_🇺🇸US-🇺🇸US_2836
-      - Relay_🇺🇸US-🇷🇺RU_21
-      - Relay_🇺🇸US-🇷🇺RU_1457
-      - 🇨🇳CN_85|1.64Mb
-      - github.com/freefq-美国CloudFlare公司CDN节点20
-      - github.com/freefq+-+美国++15
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
-      - github.com/v2rayfree+-+美国++15
-      - Relay_🇨🇳CN-🇩🇪DE_08
-      - Relay_🇫🇷FR-🇺🇸US_376
-      - github.com/freefq+-+新加坡Linode数据中心+21
-      - Relay_🇨🇳CN-🇷🇺RU_11
+      - Relay_🇨🇳CN-🇨🇦CA_11
       - 🇸🇬+SG_146+|43.17Mb
-      - 🇺🇸US_1919+|+2.02Mb
-      - Relay_🇺🇸US-🇩🇪DE_23
-      - github.com/freefq-美国CloudFlare节点28
-      - Relay_🇨🇳CN-🇷🇺RU_07
-      - Relay_🇺🇸US-🇺🇸US_2840
-      - Relay_🇺🇸US-🇷🇺RU_1458
-      - 🇺🇸US_792
-      - github.com/freefq-广东省广州市移动25
-      - 🇸🇬+SG_113+TG@peekfun
-      - 🏁+ZZ_95
-      - github.com/freefq+-+俄罗斯++11
-      - 🇷🇴+RO_162+|+2.02Mb
-      - 🇱🇹+LT_148+|+2.51Mb
-      - github.com/freefq+-+英国++25
-      - 🇬🇧+GB_115+|+1.33Mb
-      - 🇨🇳+CN_36+|+2.55Mb
-      - 🇺🇸+US_206+|+2.03Mb
-      - 🇯🇵+JP_133+|17.14Mb
-      - github.com/v2rayfree+-+美国俄勒冈州波特兰Amazon数据中心+37
       - github.com/freefq+-+新加坡Linode数据中心+32
-      - github.com/freefq-美国Microsoft公司35
-      - Relay_🇸🇬+SG-🇸🇬SG_1670
-      - 🇸🇬+SG_1131+|+6.56Mb
+      - 🇺🇸US_132TG@peekfun
+      - Relay_🇺🇸US-🇺🇸US_3115
+      - Relay_🇨🇳CN-🇨🇦CA_13
+      - github.com/freefq+-+美国++7
+      - github.com/freefq+-+美国++29
+      - Relay_🇨🇳CN-🇨🇦CA_12
+      - Relay_🇺🇸US-🇺🇸US_2842
+      - github.com/freefq-美国CloudFlare公司CDN节点29
+      - ''
+      - github.com/freefq-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree+-+美国++15
+      - Relay_🇨🇳CN-🇷🇺RU_05
+      - github.com/v2rayfree-广东省广州市移动35
+      - Relay_🇨🇳CN-🇩🇪DE_17
+      - github.com/freefq-广东省广州市移动52
+      - Relay_🇺🇸US-🇷🇺RU_57
+      - github.com/freefq-新加坡Linode数据中心21
+      - 🇨🇳CN_85|1.64Mb
       - 🇺🇸US_1953+|+2.34Mb
-      - github.com/v2rayfree-美国Microsoft公司26
-      - github.com/freefq+-+美国++33
-      - Relay_🇺🇸US-🇺🇸US_2826
-      - github.com/v2rayfree+-+美国++17
-      - 🇸🇬SG_1179
-      - 🇸🇬+SG_96+|43.17Mb
-      - github.com/v2rayfree-广东省广州市移动25
-      - 🇺🇸US_1904|1.99Mb
-      - Relay_🇸🇬SG-🇺🇸US_1710
-      - github.com/freefq+-+新加坡Linode数据中心+36
-      - github.com/v2rayfree+-+新加坡Linode数据中心+21
-      - github.com/v2rayfree-美国CloudFlare公司CDN节点18
-      - 🇺🇸US_787
-      - github.com/v2rayfree-美国CloudFlare节点28
-      - 🇯🇵JP_694
-      - Relay_🇺🇸US-🇺🇸US_2821
       - Relay_🇺🇸US-🇺🇸US_2830
+      - github.com/freefq-美国CloudFlare节点60
       - 🇺🇸US_1924+|+2.02Mb
+      - github.com/v2rayfree-广东省广州市移动25
+      - github.com/v2rayfree+-+美国++17
+      - github.com/freefq+-+美国++33
+      - github.com/v2rayfree+-+新加坡Linode数据中心+21
+      - Relay_🇺🇸US-🇺🇸US_2821
+      - Relay_🇺🇸US-🇷🇺RU_1461
+      - 🇫🇷FR_609|2.03Mb
+      - Relay_🇨🇳CN-🇷🇺RU_13
+      - 🇺🇸+US_160+|+9.09Mb
+      - Relay_🇺🇸US-🇺🇸US_2992
+      - Relay_🇺🇸US-🇺🇸US_3076
+      - Relay_🇨🇳CN-🇩🇪DE_15
+      - github.com/freefq-广东省广州市移动41
+      - Relay_🇦🇺AU-🇦🇺AU_88
+      - Relay_🇸🇬+SG-🇸🇬SG_1670
+      - github.com/freefq+-+新加坡Linode数据中心+36
+      - v2cross.com
+      - github.com/v2rayfree-广东省广州市移动34
+      - Relay_🇺🇸US-🇺🇸US_3083
+      - 🇺🇸US_787
+      - 🇸🇬+SG_96+|43.17Mb
+      - github.com/freefq-美国俄勒冈州波特兰Amazon数据中心27
+      - github.com/v2rayfree-美国CloudFlare公司CDN节点20
+      - github.com/v2rayfree-美国CloudFlare节点28
+      - 🇦🇺+AU_02+|+2.57Mb
+      - Relay_🇸🇬SG-🇺🇸US_1710
+      - 🇺🇸+US_167+|+2.03Mb
+      - 🇨🇳CN_50|1.64Mb
+      - github.com/freefq-美国Microsoft公司35
+      - 🇺🇸US_2042+|+2.27Mb
+      - 🇺🇸US_2402+|+2.50Mb
+      - Relay_🇺🇸US-🇺🇸US_3013
+      - github.com/v2rayfree-美国Microsoft公司26
+      - 🇺🇸+US_132+|24.32Mb
+      - Relay_🇺🇸US-🇺🇸US_2826
+      - github.com/freefq+-+美国++13
+      - github.com/v2rayfree+-+美国++7
+      - Relay_🇺🇸US-🇺🇸US_2828
+      - 🇸🇬+SG_1131+|+6.56Mb
+      - Relay_🇨🇳CN-🇨🇦CA_09
+      - 🇸🇬SG_1179
+      - 🇺🇸+US_206+|+2.03Mb
+      - Relay_🇺🇸US-🇺🇸US_3003
+      - 🇸🇬SG_1209+|+2.41Mb
+      - 🇸🇬SG_1210+|+2.16Mb
+      - github.com/freefq-新加坡腾讯云42
+      - github.com/v2rayfree-新加坡腾讯云56
+      - github.com/freefq-新加坡腾讯云5
+      - github.com/v2rayfree-新加坡腾讯云46
+      - github.com/freefq-湖南省联通50
+      - github.com/v2rayfree-新加坡腾讯云1
+      - github.com/v2rayfree-新加坡腾讯云25
+      - github.com/v2rayfree+-+美国++51
+      - github.com/freefq-新加坡腾讯云56
+      - github.com/freefq-新加坡Linode数据中心69
+      - github.com/freefq-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云42
+      - github.com/freefq+-+美国++51
+      - github.com/freefq-新加坡腾讯云14
+      - Relay_🇸🇬SG-🇸🇬SG_1781
+      - github.com/freefq-新加坡腾讯云27
+      - github.com/v2rayfree-新加坡腾讯云63
+      - github.com/v2rayfree-新加坡腾讯云13
+      - github.com/freefq-新加坡腾讯云44
+      - github.com/freefq-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云30
+      - github.com/freefq-新加坡腾讯云21
+      - github.com/freefq-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云46
+      - github.com/v2rayfree-湖南省联通50
+      - github.com/freefq-新加坡腾讯云48
+      - Relay_🇺🇸US-🇺🇸US_2937
+      - github.com/freefq-新加坡腾讯云65
+      - github.com/freefq-新加坡腾讯云12
+      - github.com/freefq-新加坡腾讯云10
+      - github.com/v2rayfree+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云63
+      - Relay_🇺🇸US-🇺🇸US_2930
+      - github.com/freefq+-+新加坡Linode数据中心+72
+      - github.com/freefq-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云27
+      - github.com/freefq-新加坡腾讯云19
+      - github.com/v2rayfree-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云30
+      - github.com/freefq-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云11
+      - github.com/freefq-新加坡腾讯云28
+      - github.com/freefq-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云25
+      - github.com/v2rayfree-新加坡腾讯云14
+      - github.com/v2rayfree-新加坡腾讯云19
+      - github.com/freefq-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云49
+      - github.com/freefq-新加坡腾讯云49
+      - github.com/v2rayfree-新加坡腾讯云9
+      - github.com/v2rayfree-新加坡腾讯云16
+      - github.com/v2rayfree-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云13
+      - github.com/v2rayfree-美国CloudFlare节点78
+      - github.com/v2rayfree-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云68
+      - github.com/v2rayfree-新加坡腾讯云47
+      - github.com/v2rayfree-新加坡腾讯云65
+      - github.com/v2rayfree-新加坡腾讯云22
+      - github.com/v2rayfree-新加坡腾讯云10
+      - github.com/v2rayfree-新加坡腾讯云48
+      - github.com/freefq-新加坡腾讯云68
+      - github.com/v2rayfree-美国Microsoft公司77
+      - github.com/freefq-新加坡腾讯云1
+      - github.com/freefq-新加坡腾讯云17
+      - github.com/v2rayfree-新加坡腾讯云57
+      - github.com/v2rayfree-新加坡腾讯云24
+      - github.com/freefq-新加坡腾讯云18
+      - github.com/freefq-新加坡腾讯云29
+      - github.com/v2rayfree-新加坡腾讯云29
+      - github.com/freefq-新加坡腾讯云15
+      - github.com/v2rayfree-新加坡腾讯云54
+      - github.com/freefq-新加坡腾讯云4
+      - github.com/v2rayfree-新加坡腾讯云12
+      - Relay_🇸🇬SG-🇺🇸US_1780
+      - github.com/freefq-新加坡腾讯云57
+      - github.com/freefq-新加坡腾讯云31
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
