@@ -1,0 +1,1 @@
+hysteria://167.160.91.115:41189/?insecure=1&peer=www.amazon.cn&auth=bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF&upmbps=80&downmbps=100&alpn=h3#%E6%B2%B9%E7%AE%A1%E7%BB%B5%E9%98%BF%E7%BE%8A_United%20States_hy_3
